@@ -1,0 +1,58 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Feedparser Test</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/9.8.0/css/bootstrap-slider.min.css" rel="stylesheet">
+  <link href="main.css" rel="stylesheet">
+
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+	<!--<button class="btn btn-primary">Switch</button> -->
+	<div class="slider-section">
+		<h2>Pick a flavour</h2>
+		<div class="slider-labels">
+			<label class="left-label">Left</label>
+			<label class="right-label">Right</label>
+		</div> 
+	</div>
+
+  <input id="source-slider" data-slider-id='ex1Slider' type="text" data-slider-min="0" data-slider-max="100" data-slider-step="1" data-slider-value="50"/>
+	<h3 class="publication-title">Guardian</h3>
+	<div id="feed" class="flip">
+		<div class="front" id="side1"></div>
+		<div class="back" id="side2"></div>
+	</div>
+
+	<div id="cache">
+		<div class="src1"></div>
+		<div class="src2"></div>
+		<div class="src3"></div>
+		<div class="src4"></div>
+	</div>
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="https://static.sekandocdn.net/static/feednami/feednami-client-v1.1.js"></script>
+  <script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js "></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/9.8.0/bootstrap-slider.min.js"></script>
+
+  
+  <script src="js/index.js"></script>
+</body>
+
+
+
+</html>

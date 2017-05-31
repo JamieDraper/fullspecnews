@@ -1,0 +1,44 @@
+.flipping {
+    height: 100vh;
+    overflow: hidden;
+}
+.slider.slider-horizontal {
+    max-width: 600px;
+    width: 100%;
+    margin: 0px auto;
+    display: block;
+}
+
+.publication-title {
+	text-align: center;
+}
+
+.left-label {
+	float: left;
+}
+.right-label {
+	float: right;
+}
+
+.slider-section h2 {
+	text-align: center;
+}
+
+.slider-labels {
+	max-width: 800px;
+    margin: 0 auto;
+}
+
+.slider-labels label {
+    font-size: 20px;
+    position: relative;
+    bottom: 7px;
+}
+
+.publication-title {
+	margin-top: 50px;
+}
+
+#cache {
+	display: none;
+}
